@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'youtube-paginate';
+  p: number = 1;
+  collection: any[] = ['sleeping','eating','watching','hiking','Reading','walking','crying','touring','cleaning','driving','chatting']; 
 }
